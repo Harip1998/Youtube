@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+    <title>Youtube</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">   
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet"  href="css/Youtube.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" />
+      
+    <script src="js/Youtube.js"></script> 
+    </head>
+        <body> <!--start body-->
+
+	      <div class="r1"  class="container-fluid top_bar"> <!--container 1-->
+		  <div class="container-fluid">
+		  
+		  <div class="row"> <!--start of row-->
+          <div class="col-sm-3"> <!-- start of first col-->
+          	<div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+             <a href="#">Trending</a>
+           <a href="#">Subscriptions</a>
+           <a href="#">Library</a>
+            <a href="#">History</a>
+            <a href="#">Watch Later</a>
+          </div> 
+
+          <span class="icon" style="font-size:17px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          <script>
+            function openNav() 
+             { document.getElementById("mySidenav").style.width = "250px";}
+
+            function closeNav() 
+             { document.getElementById("mySidenav").style.width = "0";}
+           </script>
+
+			<a href="#" class="social_icon"><i class="fa fa-youtube-play" style="font-size: 25px; color:red; "></i></a>
+			 Youtube
+		  </div> <!--end of first col1-->
+
+		  <div class="col-sm-9"> <!--start of second col-->	
+		 
+			 <input  type="text" placeholder="Search" id="user_input2" id="fname" name="fname" size="77" height="32" > 
+             <button class="icon-bar">
+             <a href="#"><i class="fa fa-search" style="color: black" style="width: 25px"></i></a> 
+             </button>
+		  </div> <!--end of  sescond col-->
+
+            </div> <!--end of row-->
+
+		   </div> <!-- end of container-fluid -->
+           </div> <!-- end of container-fluid top_bar-->
+          
+			<br >
+            
+            <div class="container-fluid"> <!-- START CONTAINER 2-->
+            <div class="row">
+            <div  class="col-sm-6"> <!--start col-1-->
+
+			<iframe class="video"  width="800" height="450" src="https://www.youtube.com/embed/Y0jMD34a0nQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h5>Just 21 Days | India’s War Against Virus - Together We Can and We Will Fight This</h5>
+				
+      		    <div class="row"> 
+      		    <div class="col-sm-6">	
+                <p>296,355,619 views March 22, 2020</p>
+                </div>
+
+                <div class="col-sm-6 text-right">
+                <div  style="float: right;" class="row text-right">	
+				
+				<i style="margin-left: 10px" style="font-size:15px" class="fa">&#xf087;</i>
+				<p style="margin-left: 10px">10M</p>
+				<i style="margin-left: 10px" style="font-size:15px" class="fa">&#xf088;</i>
+				<p style="margin-left: 10px">1M</p>
+				<p style="margin-left: 10px">SHARE</p>
+				<p style="margin-left: 10px">SAVE</p>
+				<p style="margin-left: 10px">...</p>
+			    </div>
+                </div>
+			    </div>
+				
+               <br/>
+               <hr>
+               <BUtton class="bell"><i class="fas fa-bell"></i></BUtton> 
+			<img src="C:\Users\Harinath\Downloads\tseries.png"  width="30" height="20"  <h5>T-SERIES  <button class="tmp" style="float: right;">SUBSCRIBED</button> </h5>
+
+	
+			 136M subscribers
+			 <br/>
+			 <br/>
+               
+             <div  style="float: left;" class="container">
+              
+                  <textarea placeholder="Add public comment..." id=""></textarea>
+                   <div class="btn">
+                   </div>
+               </div>
+                   
+                      <div class="tmp2" style="margin: 40px" class="container-fluid">
+                      	 <input style="float: right;" type="submit" value="COMMENT">
+                        <button class="tmp3" style="float: right;"  class="cancel">CANCEL</button>
+                       
+                    </div> 
+                 
+             <div style="float: left;" class="container-fluid">
+             <div style="float: left;" class="row">
+             <h6>59 Comments</h6>	
+             <button id="sort_btn"><i class="fas fa-sort-amount-down"></i>sort by</button>
+             </div>
+             </div>
+
+             <div style="float: left;" class="container-fluid">
+             <div style="float: left;" id="commentsList">
+             	
+             </div>
+             </div>
+		   
+             </div> <!-- end of col-->
+              <div class="col-sm-1"></div> <!--end of col-->
+
+	         <div id ="user_input" class="col-sm-5"><!-- START COLUMN 2-->
+	         	                
+			
+              </div> <!--end of col-->
+
+			</div> <!-- end of row--> 
+			</div> <!--end of container--> 
+     
+		</body> <!--end of body-->
+
+</html>			
